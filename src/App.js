@@ -103,7 +103,7 @@ class App extends Component {
           </div>
 
 
-          <button className="searchBtn" onClick={this.testingDBinput}> Search Now </button> 
+          <button className="searchBtn" onClick={this.testingDBinput}> Register to the Hive </button> 
 
           <div className="container right">
           <h1 className="mainTxt">Skillset/Program</h1>
