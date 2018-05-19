@@ -27,7 +27,8 @@ class App extends Component {
     }
 
     testingDBinput() {
-        this.socket=mySocket("http://localhost:10002/");
+        // this.socket=mySocket("http://localhost:10002/");
+      this.socket = mySocket("http://mediaworks-server.herokuapp.com/");
         var data = {
           name: this.state.name,
           bcit: this.state.bcit,
