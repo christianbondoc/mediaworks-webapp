@@ -114,15 +114,13 @@ body {
 }
 
 .searchBtn {
-  position: absolute;
-  max-width: 50vw;
-  bottom: 25vh;
+  position: relative;
   background: rgba(255, 240, 160, 1);
   color: #000;
   border: 5px solid #FFF0A0;
   width: 15vw;
   height: 5vh;
-  font-size: 1em;
+  font-size: 100%
 }
 .logoImg {
   background: url("../img/hiveLogo.svg") no-repeat center center;
