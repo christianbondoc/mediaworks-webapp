@@ -103,7 +103,7 @@ class App extends Component {
               <option value="Graphic Designer"> Graphic Designer </option>
               <option value="Web Designer"> Web Designer </option>
               <option value="Software Developer"> Software Developer </option>
-              <option value="Woodworker">Carpentry</option>
+              <option value="Carpentry">Carpentry</option>
               <option value="Metal Working">Metal Working</option>
             </select>
           <button className="searchBtn" onClick={this.testingDBinput}> Register to the Hive </button> 

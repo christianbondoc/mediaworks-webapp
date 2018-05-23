@@ -141,4 +141,16 @@ body {
   background-color: #323232;
   color: #fff;
   text-align: left;
+  font-size: 90%;
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 450px) {
+  .searchBtn, .mainBtn {
+    width: 50vw;
+  }
+  .positionB {
+    width: 35vw;
+  }
 }
