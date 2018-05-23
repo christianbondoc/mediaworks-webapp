@@ -150,6 +150,9 @@ body {
   .searchBtn, .mainBtn {
     width: 50vw;
   }
+  .bcitHeader{
+    font-size: 80%;
+  }
   .positionB {
     width: 35vw;
   }
