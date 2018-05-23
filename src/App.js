@@ -99,10 +99,17 @@ class App extends Component {
             <input className="input" onChange={this.upName} placeholder= "First & Last Name" />
             <input className="input" onChange={this.upID} placeholder="BCIT ID" onKeyPress={(e) => this.studentIDInput(e)} />
             <input className="input" onChange={this.upEmail} placeholder= "BCIT Email" />
-            <input className="input" onChange={this.upProgram} placeholder= "Program" />
+            <select className="positionB" onChange={this.upProgram}>
+              <option value="Graphic Designer"> Graphic Designer </option>
+              <option value="Web Designer"> Web Designer </option>
+              <option value="Software Developer"> Software Developer </option>
+              <option value="Woodworker">Carpentry</option>
+              <option value="Metal Working">Metal Working</option>
+            </select>
           </div>
           <button className="searchBtn" onClick={this.testingDBinput}> Register to the Hive </button> 
         </div>
+        
         
       )}
       else if (pgNum===2) {
