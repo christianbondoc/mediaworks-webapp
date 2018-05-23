@@ -101,22 +101,7 @@ class App extends Component {
             <input className="input" onChange={this.upEmail} placeholder= "BCIT Email" />
             <input className="input" onChange={this.upProgram} placeholder= "Program" />
           </div>
-
-
           <button className="searchBtn" onClick={this.testingDBinput}> Register to the Hive </button> 
-
-          <div className="container right">
-          <h1 className="mainTxt">Skillset/Program</h1>
-            <div className="content">
-              <select className="positionB">
-                <option value="Graphic Designer"> Graphic Designer </option>
-                <option value="Web Designer"> Web Designer </option>
-                <option value="Software Developer"> Software Developer </option>
-                <option value="Woodworker">Carpentry</option>
-                <option value="Metal Working">Metal Working</option>
-              </select>
-            </div>
-          </div>
         </div>
         
       )}
